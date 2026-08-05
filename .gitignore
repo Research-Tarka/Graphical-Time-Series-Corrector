@@ -1,0 +1,18 @@
+# Embedded Python runtime (downloaded by setup/setup_runtime.ps1)
+runtime/
+
+# Dev virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# App logs
+app/logs/
+
+# Local shortcuts
+*.lnk
+
+# Throwaway sandbox test scripts (never committed)
+_scratch_*

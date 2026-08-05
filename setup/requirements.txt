@@ -1,0 +1,14 @@
+# Pinned dependencies for the embeddable runtime.
+#
+# IMPORTANT: PyQt6 6.11.x fails to load (WinError 127 / DLL load failed)
+# on this machine even in a clean environment. PyQt6==6.7.1 with
+# PyQt6-Qt6==6.7.1 is verified to work - do not bump these without
+# re-testing `import PyQt6.QtWidgets` on the target machine first.
+PyQt6==6.7.1
+PyQt6-Qt6==6.7.1
+PyQt6_sip==13.11.1
+pyqtgraph==0.14.0
+numpy==2.4.6
+polars==1.41.2
+fastexcel==0.20.2
+xlsxwriter==3.2.0
